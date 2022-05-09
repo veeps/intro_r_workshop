@@ -198,6 +198,8 @@ unique(df$vitamin_a) # notice the removal of the quotation marks
 
 ### Let's do this for Vitamin C, Calcium, and Iron columns too
 
+## First, an intro to pipes. View slides [here](https://docs.google.com/presentation/d/1quw8JVVBsEEMUrewK0Q4F-rbD1raPWfEYh0n5gNP_k0/edit?usp=sharing)
+
 ```{r intro to pipes}
 
 # remove percent signs for these columns
