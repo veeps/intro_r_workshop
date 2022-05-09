@@ -130,7 +130,7 @@ unique(df$category)
 ## Task: Check how many different drinks are in the data
 
 ```{r see how many different drinks are in the data}
-unique()
+unique(df$beverages)
 ```
 
 ### We can also perform functions on the columns
@@ -168,14 +168,14 @@ summary(df)
 ```{r convert class type}
 
 # check class
-class()
+class(df$vitamin_a)
 
 # get a preview
-head()
-tail()
+head(df$vitamin_a)
+tail(df$vitamin_a)
 
 # can you check for unique values?
-unique()
+unique(df$vitamin_a)
 
 
 # remove the percent signs
